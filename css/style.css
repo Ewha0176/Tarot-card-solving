@@ -5,7 +5,7 @@
 
 body {
     position: relative;
-    background : url('./background.jpg');
+    background : url('../asset/background.jpg');
     background-size: cover;
 }
 
@@ -14,17 +14,22 @@ body {
     color: white;
     font-family: "KCCChassam";
     font-size: 50px;
+    text-align: center;
+    margin-top: 18%;
+    margin-left: 37%;
 }
 
-button {
+a, a:active, a:visited, a:link {
     font-family: "KCCChassam";
-    background-color: rgb(49, 59, 136);
-    border-radius: 15px;
+    background-color: rgb(98, 113, 224);
     width: 200px;
     height: 50px;
     font-size: 23px;
     color: white;
     border:none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
 }
 
 @font-face {
